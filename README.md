@@ -1,20 +1,25 @@
+<br>
+
 <p align="center">
   <a href="https://heroicons.com" target="_blank">
     <picture>
-      <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/tailwindlabs/heroicons/HEAD/.github/logo-dark.svg">
-      <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/tailwindlabs/heroicons/HEAD/.github/logo-light.svg">
-      <img alt="Heroicons" width="315" height="117" style="max-width: 100%" src="https://raw.githubusercontent.com/tailwindlabs/heroicons/HEAD/.github/logo-light.svg">
+      <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/duggi/heroicons-duggi/HEAD/.github/logo-dark.svg">
+      <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/duggi/heroicons-duggi/HEAD/.github/logo-light.svg">
+      <img alt="Heroicons" width="515" height="auto" style="max-width: 100%" src="https://raw.githubusercontent.com/duggi/heroicons-duggi/HEAD/.github/logo-light.svg">
     </picture>
   </a>
 </p>
 
+<br>
+
 <p align="center">
-  Beautiful hand-crafted SVG icons, by the makers of Tailwind CSS. <br>Available as basic SVG icons and via first-party <a href="#react">React</a> and <a href="#vue">Vue</a> libraries.
+  A Jokula fork of Heroicons. All icons are additive. <br>Available as basic SVG icons and via first-party <a href="#react">React</a> and <a href="#vue">Vue</a> libraries.
 <p>
 
 <p align="center">
-  <a href="https://heroicons.com"><strong>Browse at Heroicons.com &rarr;</strong></a>
+  <a href="https://heroicons.com"><strong>Browse the originals at Heroicons.com &rarr;</strong></a>
 </p>
+
 
 <p align="center">
     <a href="https://github.com/tailwindlabs/heroicons/releases"><img src="https://img.shields.io/npm/v/heroicons" alt="Latest Release"></a>
@@ -23,7 +28,7 @@
 
 ## Basic Usage
 
-The quickest way to use these icons is to simply copy the source for the icon you need from [heroicons.com](https://heroicons.com) and inline it directly into your HTML:
+The quickest way to use these icons is to copy the source for the icon you need from the Figma Community file (right click > Copy/Paste as > Copy as SVG) and inline it directly into your HTML:
 
 ```html
 <svg
@@ -45,16 +50,16 @@ Both icon styles are preconfigured to be stylable by setting the `color` CSS pro
 
 ## React
 
-First, install `@heroicons/react` from npm:
+First, install `@jokula-heroicons/react` from npm:
 
 ```sh
-npm install @heroicons/react
+npm install @jokula-heroicons/react
 ```
 
 Now each icon can be imported individually as a React component:
 
 ```js
-import { BeakerIcon } from '@heroicons/react/24/solid'
+import { BeakerIcon } from '@jokula-heroicons/react/24/solid'
 
 function MyComponent() {
   return (
@@ -66,18 +71,17 @@ function MyComponent() {
 }
 ```
 
-The 24x24 outline icons can be imported from `@heroicons/react/24/outline`, the 24x24 solid icons can be imported from `@heroicons/react/24/solid`, the 20x20 solid icons can be imported from `@heroicons/react/20/solid`, and 16x16 solid icons can be imported from `@heroicons/react/16/solid`.
+The 24x24 outline icons can be imported from `@jokula-heroicons/react/24/outline`, the 24x24 solid icons can be imported from `@jokula-heroicons/react/24/solid`, the 20x20 solid icons can be imported from `@jokula-heroicons/react/20/solid`, and 16x16 solid icons can be imported from `@jokula-heroicons/react/16/solid`.
 
 Icons use an upper camel case naming convention and are always suffixed with the word `Icon`.
 
-[Browse the full list of icon names on UNPKG &rarr;](https://unpkg.com/browse/@heroicons/react/24/outline/)
 
 ## Vue
 
-First, install `@heroicons/vue` from npm:
+First, install `@jokula-heroicons/vue` from npm:
 
 ```sh
-npm install @heroicons/vue
+npm install @jokula-heroicons/vue
 ```
 
 Now each icon can be imported individually as a Vue component:
@@ -91,15 +95,13 @@ Now each icon can be imported individually as a Vue component:
 </template>
 
 <script setup>
-import { BeakerIcon } from '@heroicons/vue/24/solid'
+import { BeakerIcon } from '@jokula-heroicons/vue/24/solid'
 </script>
 ```
 
-The 24x24 outline icons can be imported from `@heroicons/vue/24/outline`, the 24x24 solid icons can be imported from `@heroicons/vue/24/solid`, the 20x20 solid icons can be imported from `@heroicons/vue/20/solid`, and the 16x16 solid icons can be imported from `@heroicons/vue/16/solid`.
+The 24x24 outline icons can be imported from `@jokula-heroicons/vue/24/outline`, the 24x24 solid icons can be imported from `@jokula-heroicons/vue/24/solid`, the 20x20 solid icons can be imported from `@jokula-heroicons/vue/20/solid`, and the 16x16 solid icons can be imported from `@heroicons/vue/16/solid`.
 
 Icons use an upper camel case naming convention and are always suffixed with the word `Icon`.
-
-[Browse the full list of icon names on UNPKG &rarr;](https://unpkg.com/browse/@heroicons/vue/24/outline/)
 
 ## Contributing
 
